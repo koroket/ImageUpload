@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import <Foundation/Foundation.h>
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate>
 
 
 @end
